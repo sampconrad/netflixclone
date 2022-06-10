@@ -1,0 +1,49 @@
+header {
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 30px;
+	background: transparent;
+	transition: all ease 0.5s;
+}
+
+header.black {
+	background-color: #141414;
+}
+
+.header--logo {
+	height: 25px;
+	transition: 0.2s;
+	opacity: 0.8;
+}
+
+.header--logo:hover {
+	opacity: 1;
+	transform: translateY(3px);
+}
+
+.header--logo img {
+	height: 100%;
+}
+
+.header--user {
+	height: 35px;
+	transition: 0.2s;
+	opacity: 0.8;
+}
+
+.header--user:hover {
+	opacity: 1;
+	transform: translateY(3px);
+}
+
+.header--user img {
+	height: 100%;
+	border-radius: 3px;
+}
